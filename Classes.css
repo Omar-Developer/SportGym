@@ -1,0 +1,255 @@
+.landpage-Classes {
+  position: relative;
+  min-height: 100vh;
+  background-image: #e2d8d8;
+}
+
+.landpage-Classes .overlay-Classes {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.landpage-Classes .overlay-Classes .contener-page8 {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.landpage-Classes .overlay-Classes .contener-page8 .sub-contener18 {
+  position: absolute;
+  top: 70%;
+  width: 40%;
+  left: 100px;
+}
+
+.landpage-Classes .overlay-Classes .contener-page8 .sub-contener28 {
+  position: absolute;
+  top: 60%;
+  width: 20%;
+  right: 200px;
+  border: #770101 solid;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.landpage-Classes .overlay-Classes .contener-page8 .sub-contener8 p {
+  line-height: 30px;
+}
+
+.landpage-Classes .inner-overlay-Classes {
+  background-image: url("./bg-2.jpg");
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  left: 0;
+  top: 0;
+}
+
+.text-contact8 {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+
+.text-contact8 h1 {
+  font-size: 71px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 72px;
+  font-family: "Playfair Display", serif;
+}
+
+.text-contact8 hr {
+  width: 100px;
+}
+
+.landing8-laftpartofpage8 {
+  position: relative;
+  min-height: 50vh;
+  background-image: #e2d8d8;
+  z-index: -1;
+}
+
+.laftpartofpage8 {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.introduction-text-class {
+  position: absolute;
+  width: 60%;
+  left: 50%;
+  top: 75%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+}
+
+.introduction-text-class h1 {
+  color: black;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 52px;
+  font-family: 'Oswald', sans-serif;
+  
+}
+
+.introduction-text-class p {
+  font-size: 16px;
+  color: #939393;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0 0 15px 0;
+}
+
+.classes {
+ 
+  position: absolute;
+  top: 90%;
+}
+
+.classes .part {
+  text-align: center;
+        width: 300px;
+        margin-left: 50px;
+
+
+}
+
+.classes .part img {
+  width: 200px;
+  height: 200px;
+}
+
+.classes .part h1 {
+  font-family: "Playfair Display", serif;
+}
+
+.classes .part p {
+  font-size: 16px;
+  color: #939393;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0 0 15px 0;
+}
+
+/* End page 8  */
+/* Start page 9 Class part2 */
+.landpage-class-page {
+  position: relative;
+  min-height: 100vh;
+  background-image: url("./pb.jpg");
+  background-size: cover;
+}
+
+.landpage-class-page .overlay-class-page {
+ 
+  background-color: #00000026;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.contener-class p {
+  font-size: 14px;
+  color: #939393;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0 0 15px 0;
+}
+
+.contener-class .cla-1 {
+  border: 3px solid #ffdd8d;
+  border-radius: 30px;
+  padding-top: 80px;
+  padding-right: 24px;
+  padding-bottom: 80px;
+  padding-left: 36px;
+  width: 330px;
+  position: relative;
+  
+  top: 60px;
+  height: 500px;
+  text-align: center;
+}
+
+.contener-class .cla-1 .price-btn:after {
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background: #ffdd8d;
+  content: "";
+}
+
+.contener-class .cla-1 a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.contener-class .cla-1 p {
+  top: 50px;
+  position: relative;
+}
+
+.contener-class .cla-1 h2 {
+  color: #ffdd8d;
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.contener-class .cla-1 .price-btn {
+  top: 100px;
+  color: #ffdd8d;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+.contener-class .cla-1 span {
+  color: purple;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.contener-class .cla-1 h4 {
+  position: relative;
+  margin-top: -40px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Playfair Display", serif;
+}
+
+.contener-class .cla-1.cal-12 {
+  border: 3px solid purple;
+}
+
+.Classess-hidden {
+  display: none;
+}
+/*# sourceMappingURL=Classes.css.map */

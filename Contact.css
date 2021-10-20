@@ -1,0 +1,132 @@
+
+
+
+
+.landpage-contact {
+  position: relative;
+  min-height: 100vh;
+  background-image: #e2d8d8;
+  display: none;
+}
+
+.landpage-contact .overlay-contact {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .landpage-contact .overlay-contact .container .sub-container2 {
+  left: 120px;
+  margin-top: 500px;
+  zoom: 80%;
+  }
+
+  .landing-laftpartofpage {
+    height: 100vh;
+  }
+}
+
+
+.landpage-contact .overlay-contact .container{
+  height: 100%;
+  width: 100%;
+position: absolute;
+top: 60%;
+  
+}
+
+.landpage-contact .overlay-contact .container .sub-container1 {
+  position: absolute;
+ 
+  width: 400px;
+  left: 100px;
+}
+
+.landpage-contact .overlay-contact .container .sub-container1 span {
+  color: purple;
+}
+
+.landpage-contact .overlay-contact .container .sub-container1 h1 {
+  font-weight: 100;
+  font-size: 33px;
+  font-family: "Playfair Display", serif;
+}
+
+.landpage-contact .overlay-contact .container .sub-container1 p {
+  line-height: 30px;
+}
+
+.landpage-contact .overlay-contact .container .sub-container1 .sub-sub-container h1 {
+  font-size: 18px;
+}
+
+.landpage-contact .overlay-contact .container .sub-container2 {
+  position: absolute;
+  width: 400px;
+  right: 200px;
+  border: purple solid;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.landpage-contact .overlay-contact .container .sub-container2 span {
+  color: purple;
+}
+
+.landpage-contact .inner-overlay-contact {
+  background-image: url("./bg-3.jpeg");
+ background-position-x:50%;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  left: 0;
+  top: 0;
+}
+
+.text-contact {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+
+.text-contact h1 {
+  font-size: 71px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 72px;
+  font-family: "Playfair Display", serif;
+}
+
+.text-contact hr {
+  width: 100px;
+}
+
+.landing-laftpartofpage {
+  position: relative;
+  display: none;
+  min-height: 50vh;
+  background-image: #e2d8d8;
+  z-index: -1;
+}
+
+.laftpartofpage {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+pre {
+  font-size: 13px;
+}
+/*# sourceMappingURL=Contact.css.map */

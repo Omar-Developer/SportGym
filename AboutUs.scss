@@ -1,0 +1,140 @@
+.landpage-Aboutus {
+  @include landpages-style(100vh);
+  background-image: rgb(226, 216, 216);
+}
+.overlay-Aboutus {
+  background-color: white;
+  @include overlay-style(0,100%);
+  .inner-overlay-Aboutus {
+    background-image: url("./bg-4.jpg");
+    @include overlay-style(0,50%);
+
+  }
+}
+
+
+
+.text-contact {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+  text-align: center;
+  h1 {
+    color: #fff;
+    @include fonts-style(71px,700,72px,"Playfair Display");
+  }
+  hr {
+    width: 100px;
+  }  
+}
+
+
+
+/* ................... */
+.landing-Aboutus-last-part {
+  @include landpages-style(50vh);
+  background-image: rgb(226, 216, 216);
+  z-index: -1;
+}
+.laftpartofpage9 {
+  background-color: white;
+  @include overlay-style(0,100%);
+}
+
+.aboutus {
+  position: relative;
+  display: flex;
+  left: 60%;
+  top: 95%;
+  transform: translate(-50%, -50%);
+}
+
+.introduction-text-about {
+  color: black;
+  z-index: 2;
+  text-align: left;
+  width: 520px;
+  h1 {
+    font-family: "Playfair Display", serif;
+  }
+  p {
+ 
+    color: #939393;
+    margin: 0 0 15px 0;
+    @include fonts-style(16px,500,30px,"");
+  }
+}
+
+
+
+
+.di {
+  margin-left: 90px;
+  height: 270px;
+  width: 400px;
+  background-image: url("./the-about-background.jpg");
+  background-size: cover;
+}
+
+/* ////////// */
+
+.landing-Aboutus-last-part-2 {
+  position: relative;
+  min-height: 100vh;
+
+.overlay-Aboutus-2 {
+  background-color: black;
+  @include overlay-style(0,100%);
+
+  .half-page {
+    z-index: 2;
+    position: absolute;
+    left: 20%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+  }
+  h2 {
+   
+    color: white;
+    @include fonts-style(48px,900,0,"Playfair Display");
+    
+    position: absolute;
+    left: 42%;
+    top: 5%;
+  }
+  .container-team {
+    top: 400px;
+    display: flex;
+    width: 300px;
+    p {
+      font-size: 14px;
+      line-height: 30px;
+    }
+    img {
+      width: 300px;
+      height: 280px;
+    }
+
+    .part-team {
+      width: 300px;
+      background-color: white;
+      margin-left: 50px;
+      text-align: center;
+      h4 {
+        color: purple;
+      }
+
+    }
+  }
+  
+}
+
+
+}
+
+.Aboutus-hidden {
+  display: none;
+}

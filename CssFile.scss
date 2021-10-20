@@ -1,0 +1,885 @@
+
+@mixin fonts-style ($fz,$fw,$lh,$fm) {
+  font-size: $fz;
+  font-weight: $fw;
+  line-height: $lh;
+  
+  @if $fm=="Playfair Display" {
+    font-family: #{$fm}, serif;  
+  }@else if $fm=="Oswald"{
+    font-family: #{$fm}, sans-serif;
+  }
+ 
+}
+@mixin landpages-style($h) {
+  position: relative;
+  background-size: cover;
+  min-height: $h;  
+} 
+
+@mixin overlay-style($z,$h) {
+  position: absolute;
+  width: 100%;
+  height: $h;
+  left: 0;
+  top: 0;
+  z-index: $z;    
+}
+
+.landpage-page-1 {
+
+ @include landpages-style(100vh);
+  background-image: url("./fitenns2.jpg");
+  background-position-y: -5%; 
+  background-position-x:50%;
+
+  .overlay-page-1 {
+    background-color: #00000026;
+   @include overlay-style(2,100%);
+    
+  }
+
+}
+
+.navbar.navbar-inverse{
+  
+  position: fixed;
+  height: 70px;
+ width: 100%;
+  background-color: #ffdd8d;
+ 
+  border: 1px solid #464646;
+   z-index: 5;
+   
+  .logo {
+    width: 200px;
+    height: 140px;
+   
+     margin-top: -76px;
+    background-image: url("./LLo.jpeg");
+    background-size: cover;
+  }
+
+  .navbar-nav > li > a {
+ 
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    &:hover {
+      color: purple;
+      transition: 0.3s;
+     
+      
+    }
+}
+  
+  }
+
+  @media only screen and (min-width: 1221px)  {
+  
+    .landpage-page-6 
+    {
+      .overlay-page-6 {
+  
+        .container {
+         
+         margin-left: -300px;
+        }
+      }
+      }
+  
+  }
+
+
+  @media only screen and (max-width: 1220px) and (min-width: 817px) {
+    .landpage-page-2 
+    {
+      
+    height: 210vh;
+   
+    .overlay-page-2 {
+      height: 150%;
+    }
+  }
+
+
+  
+  .landing8-laftpartofpage8{
+    height: 100vh;
+      }
+
+}
+
+@media only screen and (max-width: 1220px)  {
+  .landpage-page-4 
+  {
+    
+  height: 350vh;
+ 
+  .overlay-page-4 {
+    height: 150%;
+  
+    .container{
+     left: 6%;
+    }
+
+    .client-area {
+margin-top: 70px;
+ left: 18%;
+    }
+  img{
+    left: 25%;
+  }
+  }
+
+
+ 
+
+}
+
+
+.header{
+  zoom: 70%;
+}
+
+.landpage-page-6 
+  {
+    .overlay-page-6 {
+
+   
+
+      .contact{
+left: 30%;
+}
+
+  }
+
+
+
+}
+
+
+
+.landing-Aboutus-last-part{
+  height: 80vh;
+}
+
+.container-team{
+  zoom: 90%;
+    }
+    .classes{
+   
+      left: -5%;
+    }  
+
+
+
+    
+
+}
+@media only screen and (max-width: 1200px) {
+
+.landpage-class-page{
+  height: 150vh;
+}
+
+}
+@media only screen and (max-width: 991px) and (min-width: 501px)  {
+  .landpage-page-4 
+  {
+    
+
+  .overlay-page-4 {
+   
+  
+    .container{
+     left: 18%;
+    }
+  }
+  }
+
+  .header{
+    zoom: 50%;
+  }
+
+
+  .landpage-page-6 
+  {
+    .overlay-page-6 {
+
+      .container {
+       
+       margin-left: -70px;
+      }
+
+
+      .contact{
+left: 20%;
+}
+
+  }
+}
+
+.landing-Aboutus-last-part-2{
+  height: 170vh;
+  .container-team{
+    margin-left: 76%;
+  .part-team{
+    margin-top: 30px;
+  }
+    }
+  }
+
+
+  .classes{
+   
+    left: 5%;
+  }  
+
+}
+
+  @media only screen and (max-width: 816px) {
+    /* For mobile phones: */
+    .landpage-page-2
+     {
+       
+     height: 250vh;
+    }
+   
+    .overlay-page-2 {
+      height: 100%;
+      .text {
+        margin-top: -40%;
+         
+        }
+      
+        .container{
+         
+        left: 10%;
+        
+                
+          margin-top: -55%;
+        }
+  }
+  
+
+  .landpage-page-4 
+  {
+    
+  .overlay-page-4 {
+  
+  .client-container{
+    left: -10%;
+    img{
+      zoom: 85%;
+
+
+    }
+    }
+    .client-area{
+      zoom: 85%;
+}
+
+  }
+  }
+
+  .landing8-laftpartofpage8{
+height: 100vh;
+  }
+  .classes{
+   
+    left: 1%;
+  }  
+
+ 
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.landpage-class-page{
+  height: 220vh;
+  .container{
+   margin-left: 10%;
+  }
+}
+
+}
+@media only screen and (max-width: 1230px) {
+.container-team{
+  zoom: 70%;
+ 
+    }
+    .overlay-Aboutus-2 h2{
+     margin-left: -5%;
+    }
+
+    .overlay-class-page{
+.container{
+  zoom: 80%;
+
+  .contener-class{
+
+    margin-top: 50px;
+  }
+
+}
+    }
+
+  }
+
+  @media only screen and (max-width: 500px) {
+   
+    .aboutus {
+      zoom: 90%;
+     
+    } 
+    .overlay-page-2 {
+     
+
+        .container{
+         
+        left: -10px;
+        
+        
+        }
+ 
+ 
+       
+ 
+ 
+      }
+  
+      .landpage-page-4 
+        {
+          
+        height: 350vh;
+       
+       
+
+        .overlay-page-4 {
+          height: 150%;
+        
+      .client-container{
+        left: -12%;
+        img{
+          zoom: 70%;
+         
+    
+        }
+        }
+        .client-area{
+          zoom: 65%;
+          
+    }      
+    
+  }  
+
+  
+
+}
+       
+.header{
+  zoom: 40%;
+}  
+  
+
+.landpage-page-6 
+  {
+    .overlay-page-6 {
+
+    .container {
+      margin-top: -50px;
+     margin-left: -110px;
+    }
+
+      .contact{
+left: 10%;
+zoom: 80%;
+}
+
+  }
+}
+
+.landpage-class-page{
+ 
+  .container{
+   margin-left: 18%;
+  }
+}
+
+
+}
+
+
+@media only screen and (max-width: 700px) {
+  .landing-Aboutus-last-part-2{
+    height: 170vh;
+    h2{
+      margin-left: -17%;
+    }
+    .container-team{
+       margin-left: 15%;
+    .part-team{
+      margin-top: 30px;
+    }
+      }
+    }
+
+
+    .introduction-text-class{
+margin-top: 10%;
+    }
+.classes{
+  margin-top: 20%;
+  left: 30px;
+}
+    .landing8-laftpartofpage8{
+      height: 200vh;
+        }
+
+
+       
+
+      }
+
+
+  .dropbtn{
+   position: relative;
+     top: -47px;
+     right: -75%;
+      z-index: 10;
+     
+        display: flex;
+        text-align: center;
+        background-color: black;
+        span{
+          color: white;
+          margin-top: 2px;
+          margin-right: 10px;
+          font-weight: 700;
+          text-shadow: 0 1px 3px #000;
+          font-size: 20px;
+        }
+      .line{
+        width: 30px;
+        height: 2px;
+        background-color: white;
+        margin: 6px 0;
+      }
+
+    }
+
+  
+  
+  
+  .dropdown-content {
+     position: fixed;
+    z-index: 50; 
+     right:10%;
+     top: 70px;
+     display: none;
+    background-color: white;
+    width: 80%;
+     height: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+  
+    ul{
+      list-style: none;
+      margin-right: 50px;
+      margin-top: 60px;
+      li{
+    
+        display: inline-block;
+   
+        a{
+        color: black;
+          text-decoration: none;
+           
+        }
+      }
+    }
+    
+    
+   
+  
+  }
+  
+  .dropdown .dropdown-content li:hover
+    {
+      padding: 12px;
+      padding-left: 130px;
+      padding-right: 130px;
+      background-color: #ffdd8d;
+      border-color: #fff;
+      a{
+      color: #fff;
+    
+     }
+    }
+  
+
+.introduction-text {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+  text-align: center;
+
+  .btn {
+    border: 2px solid black;
+    background-color: purple;
+    color: black;
+    padding: 17px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .success {
+    border-color: white;
+    color: white;
+
+    &:hover {
+      background-color: rgb(46, 0, 46);
+      color: white;
+    }
+  }
+
+  span {
+    color: purple;
+  }
+}
+
+/* page 2 */
+
+.landpage-page-2 {
+  
+  @include landpages-style(140vh);
+  background-image: black;
+ 
+ 
+  .overlay-page-2 {
+    background-color: white;
+    @include overlay-style(-1,100%);
+       
+    .text {
+      position: absolute;
+      left: 50%;
+      top: 25%;
+      transform: translate(-50%, -50%);
+      color: black;
+      z-index: 2;
+      text-align: center;
+      h1 {
+        @include fonts-style(36px,900 ,52px ,"Oswald" );
+      }
+    }
+
+    .container {
+      // display: flex;
+       position: absolute;
+       width: 100%;
+          
+
+      top: 40%;
+      .part {
+        text-align: center;
+        width: 300px;
+        margin-left: 100px;
+
+        img {
+          width: 200px;
+          height: 200px;
+        }
+
+        h1 {
+          font-family: "Playfair Display", serif;
+        }
+        p {
+          font-size: 16px;
+          color: #939393;
+          font-weight: 500;
+          line-height: 30px;
+          margin: 0 0 15px 0;
+        }
+      }
+    }
+  }
+}
+
+/* end page 2 */
+
+/* Start page 3 */
+
+.landpage-page-3 {
+ @include landpages-style(140vh);
+  background-image: url("./background-2.jpg");
+  background-image: black;
+  z-index: -4;
+  background-position:center;
+  .overlay-page-3 {
+   @include overlay-style(-1,100%);
+    .text {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      z-index: 2;
+      text-align: center;
+
+      h1 {
+         color: black;
+         @include fonts-style(36px,700 ,52px ,"Oswald" )
+      }
+    }
+  }
+}
+
+/* End page 3 */
+
+/* Start page 4 */
+
+.landpage-page-4 {
+ @include landpages-style(140vh);
+  background-image: rgb(226, 216, 216);
+
+  .overlay-page-4 {
+    background-color: black;
+   @include overlay-style(-1,100%);
+   
+
+    .container {
+      position: relative;
+      
+      z-index: 4;
+     
+      top: -300px;
+     
+    }
+    .part {
+      height: 450px;
+      width: 350px;
+      background-color: white;
+       margin-left: 30px;
+       margin-top: 20px;
+      img {
+        width: 350px;
+        margin-left: -15px;
+        height: 300px;
+        vertical-align: middle;
+        border-style: none;
+        margin-bottom: 10px;
+       
+      }
+
+      h1 {
+        text-align: center;
+      }
+      h4 {
+        text-align: center;
+        margin-bottom: -13px;
+        color: purple;
+      }
+    }
+
+    .client-area {
+      height: 300px;
+      width: 600px;
+      background-color: white;
+      border-radius: 10px;
+      margin-left: 40px;
+      text-align: center;
+      //position: relative;
+
+      span {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: block;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        color: purple;
+      }
+
+      h1 {
+       
+        @include fonts-style(48px,900 ,1 ,"Playfair Display" );
+        margin-bottom: 30px;
+      }
+    }
+
+    .client-container {
+      //display: flex;
+      position: relative;
+      // height: 400px;
+      // width: 1300px;
+      img {
+        width: 500px;
+       // position: relative;
+        //margin-left: 100px;
+      }
+    }
+  }
+}
+
+/* End page 4 */
+
+.header {
+  width: 100%;
+  height: 230px;
+  background-color: white;
+  top: 0;
+  position: relative;
+  z-index: 4;
+  border: 1px solid black;
+  display: flex;
+
+  h1 {
+   
+    @include fonts-style(48px,900 ,36px ,"" );
+    margin-top: 74px;
+    margin-left: 30px;
+  }
+}
+
+/* Start page 5 */
+
+.landpage-page-5 {
+  @include landpages-style(140vh);
+  background-image: rgb(226, 216, 216);
+  
+  .overlay-page-5 {
+    background-color: white;
+   @include overlay-style(-1,100%);
+    
+  }
+}
+
+/* End page 5 */
+
+/* Start page 6 */
+
+.landpage-page-6 {
+ @include landpages-style(100vh);
+  background-image: rgb(226, 216, 216);
+
+  .overlay-page-6 {
+    background-image: url("./black-football.jpg");
+    background-size: cover;
+    @include overlay-style(2,100%);
+
+    .container {
+      position: absolute;
+      left: 30%;
+      top: 400px;
+     // transform: translate(-50%, -50%);
+      color: white;
+      z-index: 2;
+     
+      width: 400px;
+      text-align: left;
+
+      p {
+        
+       @include fonts-style(14px,500 ,35px ,"");
+      }
+    }
+    .contact {
+      width: 484px;
+      padding: 60px 63px 70px 63px;
+      background: purple;
+      position: relative;
+      top: -300px;
+      right: -64%;
+      z-index: 1;
+
+      form {
+        textarea {
+          width: 100%;
+          border: none;
+          background: transparent;
+          border-bottom: 2px solid white;
+          font-size: 14px;
+          color: #fff;
+          padding-bottom: 80px;
+          resize: none;
+
+          overflow: hidden;
+          margin-bottom: 40px;
+        }
+        input {
+          width: 100%;
+          border: none;
+          background: transparent;
+          border-bottom: 2px solid white;
+          font-size: 14px;
+          color: #fff;
+          padding-bottom: 14px;
+          margin-bottom: 25px;
+        }
+      }
+    }
+
+    .submit-btn {
+      color: #fff;
+      background: #ffdd8d;
+      font-size: 14px;
+      font-weight: 600;
+      border: none;
+      padding: 25px 70px;
+      border-radius: 50px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      cursor: pointer;
+      &:hover {
+        background-color: #e6ad2b;
+        color: white;
+      }
+    }
+  }
+}
+
+/* #map {
+  height: 100%;
+  width: 100%;
+} */
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
+.contact {
+  .title {
+    span {
+      color: white;
+    }
+  }
+  h1 {
+    margin-top: 25px;
+    color: white;
+     @include fonts-style(48px,900 ,15px ,"Playfair Display");
+  }
+}
+
+/* End page 6 */
+
+

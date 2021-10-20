@@ -1,0 +1,172 @@
+.landpage-Aboutus {
+  position: relative;
+  min-height: 100vh;
+  background-image: #e2d8d8;
+}
+
+.overlay-Aboutus {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.overlay-Aboutus .inner-overlay-Aboutus {
+  background-image: url("./bg-4.jpg");
+  background-position-x: 35%;
+  background-position-y: 15%;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  left: 0;
+  top: 0;
+}
+
+.text-contact {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+
+.text-contact h1 {
+  font-size: 71px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 72px;
+  font-family: "Playfair Display", serif;
+}
+
+.text-contact hr {
+  width: 100px;
+}
+
+/* ................... */
+.landing-Aboutus-last-part {
+  position: relative;
+  min-height: 50vh;
+  background-image: #e2d8d8;
+  z-index: -1;
+}
+
+.laftpartofpage9 {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutus {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+   /* width: 1200px; */
+   height: 300px;
+  left: 50%;
+  top: 95%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.introduction-text-about {
+ position: relative;
+ 
+  color: black;
+  z-index: 2;
+  text-align: left;
+  width: 520px;
+}
+
+.introduction-text-about h1 {
+  font-family: "Playfair Display", serif;
+}
+
+.introduction-text-about p {
+  font-size: 16px;
+  color: #939393;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0 0 15px 0;
+  
+}
+
+.di {
+  margin-left: 90px;
+  height: 270px;
+  width: 400px;
+  background-image: url("./the-about-background.jpg");
+  background-size: cover;
+}
+
+/* ////////// */
+.landing-Aboutus-last-part-2 {
+  position: relative;
+  min-height: 100vh;
+}
+
+.landing-Aboutus-last-part-2 .overlay-Aboutus-2 {
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.landing-Aboutus-last-part-2 .overlay-Aboutus-2 .half-page {
+  z-index: 2;
+  position: absolute;
+  left: 20%;
+  top: 60%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landing-Aboutus-last-part-2 .overlay-Aboutus-2 h2 {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+  position: absolute;
+  left: 42%;
+  top: 5%;
+}
+
+.landing-Aboutus-last-part-2 .overlay-Aboutus-2 .container-team {
+  position: relative;
+  
+  width: 100%;
+  left: 40%;
+}
+
+.landing-Aboutus-last-part-2 .overlay-Aboutus-2 .container-team p {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.landing-Aboutus-last-part-2 .overlay-Aboutus-2 .container-team img {
+  width: 300px;
+  height: 280px;
+  margin-left: -15px;
+}
+
+.landing-Aboutus-last-part-2 .overlay-Aboutus-2 .container-team .part-team {
+  width: 300px;
+  background-color: white;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.landing-Aboutus-last-part-2 .overlay-Aboutus-2 .container-team .part-team h4 {
+  color: purple;
+}
+
+.Aboutus-hidden {
+  display: none;
+}
+/*# sourceMappingURL=AboutUs.css.map */

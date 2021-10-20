@@ -1,0 +1,101 @@
+
+.landpage-contact {
+  @include landpages-style(100vh);
+  background-image: rgb(226, 216, 216);
+  display: none;
+
+.overlay-contact {
+  background-color: white;
+  @include overlay-style(0,100%);
+
+  .container-page-contact {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    .sub-container1 {
+      position: absolute;
+      top: 70%;
+      width: 40%;
+      left: 100px;
+      span {
+        color: purple;
+      }
+      h1 {
+       @include fonts-style(33px,100,0,"Playfair Display");
+      }
+      p {
+        line-height: 30px;
+      }
+      .sub-sub-container {
+        h1{
+          font-size: 18px;
+          }
+      }
+    }
+    .sub-container2 {
+      position: absolute;
+    
+      top: 62%;
+      width: 30%;
+      right: 200px;
+      border: purple solid;
+      border-radius: 10px;
+      padding: 50px;
+      span{
+        color: purple;
+      }
+      
+    }
+  }
+}
+}
+
+
+
+.landpage-contact {
+  .inner-overlay-contact {
+  background-image:url("./bg-3.jpeg") ;
+  @include overlay-style(0,50%);
+}
+}
+.text-contact {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+  text-align: center;
+  h1 {
+    color: #fff;  
+    @include fonts-style(71px,700,72px,"Playfair Display");
+  
+  }
+  hr {
+    width: 100px;
+  }
+  
+}
+
+
+
+
+.landing-laftpartofpage {
+  display: none;
+  @include landpages-style(50vh);
+  background-image: rgb(226, 216, 216);
+  z-index: -1;
+}
+.laftpartofpage {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+pre {
+  
+  font-size: 13px;
+  
+  
+}

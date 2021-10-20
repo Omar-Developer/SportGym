@@ -1,0 +1,231 @@
+.landpage-Classes {
+  @include landpages-style(100vh);
+  background-image: rgb(226, 216, 216);
+
+  .overlay-Classes {
+    background-color:white;
+   @include overlay-style(0,100%);
+    .contener-page8 {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      .sub-contener18 {
+        position: absolute;
+        top: 70%;
+        width: 40%;
+        left: 100px;
+      }
+
+      .sub-contener28 {
+        position: absolute;
+      
+        top: 60%;
+        width: 20%;
+        right: 200px;
+        border: #770101 solid;
+        border-radius: 10px;
+        padding: 50px;
+      }
+    }
+
+  }
+}
+
+
+
+.landpage-Classes {
+
+.inner-overlay-Classes {
+  background-image: url("./bg-2.jpg");
+  @include overlay-style(0,50%);
+  background-size: cover;
+}
+}
+
+.text-contact8 {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+  text-align: center;
+  h1 {
+    color: #fff;
+         @include fonts-style (71px,700,72px,"Playfair Display");
+
+  }
+  hr {
+    width: 100px;
+  }
+}
+
+
+
+
+
+.landing8-laftpartofpage8 {
+ @include landpages-style(50vh);
+  background-image: rgb(226, 216, 216);
+  z-index: -1;
+}
+.laftpartofpage8 {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.introduction-text-class {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+
+  h1 {
+    color: black;
+         @include fonts-style(36px,900,52px,"Oswald");
+    }
+    p {
+        color: #939393;
+        margin: 0 0 15px 0;
+        @include fonts-style(16px,500,30px,"");
+      }
+  }
+
+
+
+
+
+.classes {
+  display: flex;
+  position: absolute;
+  top: 85%;
+  .part {
+    text-align: center;
+    width: 300px;
+    margin-left: 100px;
+    img {
+      width: 200px;
+      height: 200px;
+    }
+    h1 {
+      font-family: "Playfair Display", serif;  
+    
+    }    
+    p {
+        color: #939393;
+        margin: 0 0 15px 0;
+        @include fonts-style(16px,500,30px,"");
+    
+      
+    }
+  }
+  
+}
+
+
+
+
+
+
+
+
+/* End page 8  */
+
+/* Start page 9 Class part2 */
+
+.landpage-class-page {
+ 
+  background-image: url("./pb.jpg");
+  @include landpages-style(100vh);
+  .overlay-class-page {
+    // display: flex;
+    background-color: #00000026;
+   @include overlay-style(2,100%);
+  }
+}
+
+
+
+.contener-class {
+  p{
+    color: #939393;
+    margin: 0 0 15px 0;
+      @include fonts-style(14px,500,30px,"");
+  }
+  .cla-1 {
+    border: 3px solid #ffdd8d;
+    border-radius: 30px;
+    padding-top: 80px;
+    padding-right: 24px;
+    padding-bottom: 80px;
+    padding-left: 36px;
+    width: 330px;
+    position: relative;
+    margin-left: 88px;
+    top: 60px;
+    height: 500px;
+    text-align: center;
+
+    .price-btn:after {
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 100%;
+      height: 2px;
+      background: #ffdd8d;
+     
+    }
+     a {
+      color: #007bff;
+      text-decoration: none;
+      background-color: transparent;
+    }
+    
+     p {
+      top: 50px;
+      position: relative;
+    }
+     h2 {
+      color: #ffdd8d;
+      font-size: 48px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+    }
+    
+
+    .price-btn {
+      top: 100px;
+      color: #ffdd8d;
+      font-size: 16px;
+      font-weight: 500;
+      display: inline-block;
+      position: relative;
+    }
+    span {
+      color: purple;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    h4 {
+      position: relative;
+      margin-top: -40px;
+      color: #fff;
+       @include fonts-style(24px,0,30px,"Playfair Display");
+    }
+    
+  }
+  .cla-1.cal-12{
+    border: 3px solid purple;
+  
+  }
+}
+
+.Classess-hidden {
+  display: none;
+}
